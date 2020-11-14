@@ -20,7 +20,5 @@
 2. Create a local database for the project
 3. Configure `persistence.xml` to match your database and credentials
 4. (Optional) Configure `pom.xml` to match your deployment target (Domain name or IP-address)
-5. Make a plain java file in package "utils" named "SetupTestUsers.java" and persist some different users (See example)
-6. DO NOT USE LEGIT USERS AND PASSWORDS IN THE TEST PACKAGE
-
-<script src="https://gist.github.com/MivleDK/b7452b652a33414573fb3a7d91876340.js"></script>
+5. Make a plain java file in package "utils" named "SetupTestUsers.java" and persist some different users (See example). You can use [this example](https://gist.github.com/MivleDK/b7452b652a33414573fb3a7d91876340)
+6. **DO NOT USE LEGIT USERS AND PASSWORDS IN THE TEST PACKAGE**
