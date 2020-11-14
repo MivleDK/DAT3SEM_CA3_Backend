@@ -26,7 +26,7 @@ The frontend is a single page application (SPA) written in REACT.
 
 - JAX-RS to handle REST operations
 
-**Testing**
+**Testing**  
 Consisting of unit and integration tests using:
 
 - jUnit
@@ -50,10 +50,12 @@ In order to get started with the "Quick start code" you will need a [backend](ht
 ## Getting started with the backend
 
 1. Clone or download this project
-2. Create two local databases for the project. One for mocking production and one for tests. The testdatabase must end with "\_test" - eg. `localDB` and `localDB_test`.
+2. Create two local databases for the project. One for mocking production and one for tests.  
+   The testdatabase must end with "\_test" - eg. `localDB` and `localDB_test`.
 3. Configure `persistence.xml` to match your database and credentials
 4. (Optional) Configure `pom.xml` to match your deployment target (Domain name or IP-address)
-5. Make a plain java file in package "utils" named `"SetupTestUsers.java"` and persist some different users (See example). You can use [this code example](https://gist.github.com/MivleDK/b7452b652a33414573fb3a7d91876340)
+5. Make a plain java file in package "utils" named `"SetupTestUsers.java"` and persist some different users.  
+   You can use [this code example](https://gist.github.com/MivleDK/b7452b652a33414573fb3a7d91876340)
 6. **DO NOT USE LEGIT USERS AND PASSWORDS IN THE TEST PACKAGE**
 7. Run a "Clean & build" to make sure that everyting was setup correctly.
 8. Run the project and verify it's accessible in your browser on localhost.
@@ -66,8 +68,8 @@ In order to get started with the "Quick start code" you will need a [backend](ht
 ## Getting started with the frontend
 
 1. Clone or download [the repo](https://github.com/MivleDK/CA3_Boilerplate_Frontend)
-2. run `npm install` to get all dependencies
-3. run `npm start` to run the project locally on localhost
+2. Run `npm install` to get all dependencies
+3. Run `npm start` to run the project locally on localhost
 4. Done 🍻🎉🍾  
    You can tweak as you like or deploy directly on your domain or using surge.
 5. (Extra) to deploy on surge run `surge --project ./build --domain A_DOMAIN_NAME.surge.sh`
